@@ -16,6 +16,7 @@
   },
   "scripts": {
     "server": "npx hardhat node",
+    "console": "npx hardhat --network localhost console",
     "build": "npm run clean && npm run compile",
     "clean": "npx hardhat clean",
     "test": "npx hardhat test"

@@ -1,0 +1,11 @@
+{
+  "name": "contract_reg",
+  "version": "1.0.0",
+  "description": "smart contract store ipfs CID",
+  "main": "index.js",
+  "author": "batphonghan",
+  "license": "MIT",
+  "devDependencies": {
+    "hardhat": "^2.6.1"
+  }
+}

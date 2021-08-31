@@ -6,6 +6,18 @@
   "author": "batphonghan",
   "license": "MIT",
   "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/test-helpers": "^0.5.13",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.6",
     "hardhat": "^2.6.1"
+  },
+  "scripts": {
+    "server": "npx hardhat node",
+    "build": "npm run clean && npm run compile",
+    "clean": "npx hardhat clean",
+    "test": "npx hardhat test"
   }
 }

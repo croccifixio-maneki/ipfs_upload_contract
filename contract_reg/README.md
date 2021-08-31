@@ -23,3 +23,5 @@ yarn test
 ```
 yarn console
 ```
+
+See [CIDContract](contracts/CIDContract.sol) for more detail

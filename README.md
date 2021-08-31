@@ -1,8 +1,8 @@
-## A Go command line store file in IPFS and smartcontract to store the owner of that CID
+## A Go command line store file in IPFS and SmartContract to store that CID and it's owner
 
 `ipfs_upload` is command line take a file path and print the CID added to IPFS
 
-`CIDContract` in `contract_reg/contract` folder implment simple store of the CID return from `ipfs_upload`
+`CIDContract` in `contract_reg/contract` folder implement simple store of the CID return from `ipfs_upload`
 
 ## Get Started
 
@@ -12,7 +12,7 @@ go version `>=1.15`
 
 AMD node version `>=12`
 
-ARM node verson `>=16`
+ARM node version `>=16`
 
 ### Installation
 
@@ -51,4 +51,4 @@ the command above should produced a CID and url to see a file addedd to IPFS
 
 Using the CID to interact with `CIDContract`
 
-See (contract_reg/README.md) for more detail
+See [README](contract_reg/README.md) for more detail

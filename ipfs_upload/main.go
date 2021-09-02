@@ -26,6 +26,7 @@ func main() {
 		fmt.Printf("Err open file: %s: %+v \n", path, err)
 		os.Exit(1)
 	}
+	defer f.Close()
 
 	cid, err := sh.Add(f)
 	if err != nil {
